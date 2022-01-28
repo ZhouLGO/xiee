@@ -341,10 +341,10 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 99) return '犹豫就会败北！';
-    if (score <= 149) return '忍杀';
-    if (score <= 199) return '修';
-    return '罗！';
+    if (score <= 99) return '平角裤！平角裤！';
+    if (score <= 149) return '1138doyoufeelme';
+    if (score <= 199) return '寄';
+    return '焯！';
 }
 
 function toStr(obj) {
